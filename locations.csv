@@ -1,0 +1,96 @@
+Country,Name,lat,long,Unit,Type,Model,Net Capacity /MW,Gross_Capacity
+United States,Arkansas Nuclear One,35.31027778,-93.23138889,1,PWR,B & W (DRY-Cont.),,846
+United States,Arkansas Nuclear One,35.31027778,-93.23138889,2,PWR,CE (DRY),,930
+United States,Beaver Valley,40.62333333,-80.43055556,"1
+",PWR,WH 3-loop (DRY),,970
+United States,Beaver Valley,40.62333333,-80.43055556,"2
+",PWR,WH 3-loop (DRY),,920
+United States,Braidwood,41.24361111,-88.22916667,,PWR,WH 4-loop (DRY),,"1,121"
+United States,Browns Ferry,34.70388889,-87.11861111,1,BWR,BWR-4 (WET),,"1,310"
+United States,Browns Ferry,34.70388889,-87.11861111,"2
+",BWR,BWR-4 (WET),,"1,310"
+United States,Browns Ferry,34.70388889,-87.11861111,"3
+",BWR,BWR-4 (WET),,"1,310"
+United States,Brunswick,33.95833333,-78.01027778,1,BWR,BWR-4 (WET),,938
+United States,Brunswick,33.95833333,-78.01027778,2,BWR,BWR-4 (WET),,920
+United States,Byron,42.07416667,-89.28194444,1,PWR,WH 4-loop (DRY),,"1,168"
+United States,Byron,42.07416667,-89.28194444,2,PWR,WH 4-loop (DRY),,"1,168"
+United States,Callaway,38.76166667,-91.78,1,PWR,WH 4-loop (DRY),,"1,300"
+United States,Calvert Cliffs,38.43194444,-76.44222222,1,PWR,CE 2-loop (DRY),,873
+United States,Calvert Cliffs,38.43194444,-76.44222222,2,PWR,CE 2-loop (DRY),,863
+United States,Catawba,35.05166667,-81.07,1,PWR,WH 4-loop (ICECOND.),,"1,129"
+United States,Catawba,35.05166667,-81.07,2,PWR,WH 4-loop (ICECOND.),,"1,129"
+United States,Clinton,40.17222222,-88.835,1,BWR,BWR-6 (WET),,"1,043"
+United States,Columbia,46.47111111,-119.3338889,1,BWR,BWR-5 (WET),,"1,170"
+United States,Comanche Peak,32.29833333,-97.785,1,PWR,WH 4-loop (DRY),,"1,084"
+United States,Comanche Peak,32.29833333,-97.785,2,PWR,WH 4-loop (DRY),,"1,124"
+United States,Cooper,40.36194444,-95.64138889,1,BWR,BWR-4 (WET),,770
+United States,Davis-Besse,41.59666667,-83.08638889,1,PWR,B & W (DRY),,965
+United States,Diablo Canyon,35.21083333,-120.8561111,1,PWR,WH DRY,,"1,122"
+United States,Diablo Canyon,35.21083333,-120.8561111,2,PWR,WH DRY,,"1,118"
+United States,Donald C. Cook,41.97555556,-86.56527778,1,PWR,WH (ICECOND.),,"1,020"
+United States,Donald C. Cook,41.97555556,-86.56527778,2,PWR,WH (ICECOND.),,"1,090"
+United States,Dresden,41.38972222,-88.26805556,2,BWR,BWR-3 (WET),,867
+United States,Dresden,41.38972222,-88.26805556,3,BWR,BWR-3 (WET),,867
+United States,Edwin I. Hatch,31.93416667,-82.34388889,1,BWR,BWR-4 (WET),,924
+United States,Edwin I. Hatch,31.93416667,-82.34388889,2,BWR,BWR-4 (WET),,924
+United States,Fermi,41.96277778,-83.2575,2,BWR,BWR-4 (WET),,"1,098"
+United States,Ginna,43.27777778,-77.31,1,PWR,WH 2-loop (DRY),,610
+United States,Grand Gulf,32.00722222,-91.04777778,1,BWR,BWR-6 (WET),,"1,500"
+United States,H. B. Robinson,34.40277778,-80.15833333,1,PWR,WH 3-loop (DRY),,735
+United States,Hope Creek,39.46777778,-75.53805556,1,BWR,BWR-4 (WET),,"1,059"
+United States,Indian Point,41.26972222,-73.95222222,3,PWR,WH 4-loop (DRY),,"1,051"
+United States,James A. FitzPatrick,43.52333333,-76.39833333,1,BWR,BWR-4 (WET),,838
+United States,Joseph M. Farley,31.22305556,-85.11166667,1,PWR,WH (DRY),,900
+United States,Joseph M. Farley,31.22305556,-85.11166667,2,PWR,WH (DRY),,920
+United States,LaSalle County,41.24555556,-88.66916667,1,BWR,BWR-5  (WET),,"1,200"
+United States,LaSalle County,41.24555556,-88.66916667,2,BWR,BWR-5 (WET),,"1,200"
+United States,Limerick,40.22666667,-75.58722222,1,BWR,BWR-5 (WET),,"1,134"
+United States,Limerick,40.22666667,-75.58722222,2,BWR,BWR-5 (WET),,"1,134"
+United States,McGuire,35.4325,-80.94833333,1,PWR,WH (ICECOND.),,"1,100"
+United States,McGuire,35.4325,-80.94833333,2,PWR,WH (ICECOND.),,"1,100"
+United States,Millstone,41.3119,-72.1686,2,PWR,CE 2-loop (DRY),,882
+United States,Millstone,41.3119,-72.1686,3,PWR,WH (DRY),,"1,155"
+United States,Monticello,45.33361111,-93.84916667,1,BWR,BWR-3 (WET),,647
+United States,Nine Mile Point,43.52083333,-76.40694444,1,BWR,BWR-2 (WET),,621
+United States,Nine Mile Point,43.52083333,-76.40694444,2,BWR,BWR-5 (WET),,"1,140"
+United States,Oconee,34.79388889,-82.89805556,1,PWR,B & W (DRY),,846
+United States,Oconee,34.79388889,-82.89805556,2,PWR,B & W (DRY),,846
+United States,Oconee,34.79388889,-82.89805556,3,PWR,B & W (DRY),,846
+United States,Palisades,42.32277778,-86.31444444,1,PWR,CE 2-loop (DRY),,800
+United States,Palo Verde,33.38916667,-112.865,1,PWR,CE80 2-loop (DRY),,"1,447"
+United States,Palo Verde,33.38916667,-112.865,2,PWR,CE80 2-loop (DRY),,"1,447"
+United States,Palo Verde,33.38916667,-112.865,3,PWR,CE80 2-loop (DRY),,"1,447"
+United States,Peach Bottom,39.75833333,-76.26805556,2,BWR,BWR-4 (WET),,"1,382"
+United States,Peach Bottom,39.75833333,-76.26805556,3,BWR,BWR-4 (WET),,"1,382"
+United States,Perry,41.80083333,-81.14333333,1,BWR,BWR-6 (WET),,"1,231"
+United States,Point Beach,44.28111111,-87.53666667,1,PWR,WH 2-loop (DRY),,510
+United States,Point Beach,44.28111111,-87.53666667,2,PWR,WH 2-loop (DRY),,516
+United States,Prairie Island,44.62166667,-92.63305556,1,PWR,WH 2-loop (DRY),,548
+United States,Prairie Island,44.62166667,-92.63305556,2,PWR,WH 2-loop (DRY),,548
+United States,Quad Cities,41.72638889,-90.31,1,BWR,BWR-4 (WET),,912
+United States,Quad Cities,41.72638889,-90.31,2,BWR,BWR-4 (WET),,912
+United States,River Bend,30.75666667,-91.33333333,1,BWR,BWR-6 (WET),,978
+United States,Salem,39.46277778,-75.53555556,1,PWR,WH 3-loop (DRY),,"1,174"
+United States,Salem,39.46277778,-75.53555556,2,PWR,WH 3-loop (DRY),,"1,130"
+United States,Seabrook Station,42.89888889,-70.85083333,1,PWR,WH (DRY),,"1,194"
+United States,Sequoyah,35.22638889,-85.09166667,1,PWR,WH 4-Loop (ICECOND.),,"1,148"
+United States,Sequoyah,35.22638889,-85.09166667,2,PWR,WH 4-Loop (ICECOND.),,"1,126"
+United States,Shearon Harris,35.63333333,-78.955,1,PWR,WH 3-Loop (DRY),900,960
+United States,South Texas,28.79555556,-96.04888889,1,PWR,WH 4-loop (DRY),,"1,250"
+United States,South Texas,28.79555556,-96.04888889,2,PWR,WH 4-loop (DRY),,"1,250"
+United States,St. Lucie,27.34861111,-80.24638889,1,PWR,CE (DRY),,"1,002"
+United States,St. Lucie,27.34861111,-80.24638889,2,PWR,CE (DRY),,"1,002"
+United States,Surry,37.16555556,-76.69777778,1,PWR,WH 3-loop (DRY),,799
+United States,Surry,37.16555556,-76.69777778,2,PWR,WH 3-loop (DRY),,799
+United States,Susquehanna,41.08888889,-76.14888889,1,BWR,BWR-5 (WET),,"1,350"
+United States,Susquehanna,41.08888889,-76.14888889,2,BWR,BWR-5 (WET),,"1,350"
+United States,Turkey Point,25.43416667,-80.33055556,1,PWR,WH 3-loop (DRY),,900
+United States,Turkey Point,25.43416667,-80.33055556,2,PWR,WH 3-loop (DRY),,900
+United States,Virgil C. Summer,34.29861111,-81.31472222,1,PWR,WH 3-Loop (DRY),,"1,000"
+United States,Vogtle,33.14333333,-81.76055556,1,PWR,WH (DRY),,"1,215"
+United States,Vogtle,33.14333333,-81.76055556,2,PWR,WH (DRY),,"1,215"
+United States,Waterford,29.99527778,-90.47111111,1,PWR,CE 2-loop (DRY),,"1,218"
+United States,Watts Bar,35.60277778,-84.78944444,1,PWR,WH (ICECOND.),,"1,167"
+United States,Watts Bar,35.60277778,-84.78944444,2,PWR,WH (ICECOND.),,"1,165"
+United States,Wolf Creek,38.23888889,-95.68888889,1,PWR,WH (DRY),,"1,250"
