@@ -50,6 +50,8 @@
             <svg class = "map1" width = "700" height = "400">
             <g id = "map" ></g>
             <g id = "points" ></g>  
+            <text id = "text2"></text>
+           
            
             </svg >
         </div>
@@ -57,7 +59,8 @@
         <div class = "2">
             <svg class = "map2" width = "700" height = "400" >
             <g id = "map2" ></g>
-            <g id = "riv" x = 0 y=0></g>
+            <g id = "riv" ></g>
+            <text id = "text"></text>
         </svg>
         </div>
        
@@ -103,7 +106,7 @@
         let height = parseInt(svg.attr("height"));
 
         let projection = d3.geoAlbersUsa()
-            .translate([width / 2.5, height / 2])
+            .translate([width / 2, height / 2])
             .scale([700]);
 
         let path = d3.geoPath()
@@ -204,6 +207,46 @@
                 }
 
             } )
+            d3.select("#text2").attr("x", (width / 2))
+                .attr("y", 25)
+                .style("fill", "black")
+                .style("font-weight", "300")
+                .text("US powerplants locations in every state, and state density per square mile of land area ")
+                .attr("text-anchor", "middle")  
+                .style("font-size", "16px") 
+                .style("text-decoration", "underline")  
+
+                // const width_ = document.getElementById("container").offsetWidth * 0.95,
+                // height_ = 550,
+                 legendCellSize = 35,
+                valeurs = [10,55,200,550,1400]
+                colors = ["#cad2c5","#84a98c","#52796f","#354f52","#212C32"]
+                var legend = svg.append('g')
+                .attr('transform', 'translate(40, 50)');
+                legend.selectAll()
+                .data(d3.range(colors.length))
+              
+                .enter().append('svg:rect')
+                    .attr('height', legendCellSize + 'px')
+                    .attr('width', legendCellSize + 'px')
+                    .attr('x', 5)
+                    .attr('y', d => d * legendCellSize)
+                    .style("fill", d => colors[d]);
+                
+                var legendScale = d3.scaleLinear().domain([1, 1000])
+                .range([1, colors.length * legendCellSize]);
+
+                let tickLabels = ['1',' 20',' 55', ' 200', ' 550', '1000'];
+                legend.append("text")
+                    .attr("class", "x label")
+                    .attr("text-anchor", "end") 
+                    .attr("x", 380 / 2)
+                    .attr("y",420  )
+                    .text("Years");
+                                    
+                legendAxis = legend.append("g")
+                    .attr("class", "axis")
+                    .call(d3.axisLeft(legendScale).ticks(5).tickValues([1,195,195*2,195*3,195*4, 1000]).tickFormat((d,i) => tickLabels[i]));
         }
         usMap(  );
 
@@ -225,6 +268,16 @@
                 console.log(military)
             //let military = await d3.json("river.geojson");
 
+            d3.select("#text").attr("x", (width / 2))
+                .attr("y", 25)
+                .style("fill", "black")
+                .style("font-weight", "300")
+                .text("US main rivers map")
+                .attr("text-anchor", "middle")  
+                .style("font-size", "16px") 
+                .style("text-decoration", "underline")  
+                
+
             d3.select("#riv").selectAll("path")
             .data(military.features)
             .join("path")
@@ -232,6 +285,9 @@
             .attr("d", path)
             .style("stroke", "#03045e")
             .style("fill", "white" )
+            
+            
+            
         }
         usMap2();
 
